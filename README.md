@@ -10,10 +10,10 @@ An example of string literals, functional syntax for built-ins are optional
 
 Both of them returns the same bytecode:
 > == bytecode ==
-0000    1 OP_CONSTANT         0 'this is a string
-0002     |    OP_PRINT
-0003    2 OP_RETURN
-        0000    1OP_CONSTANT         0 'this is a string
-        [ this is a string ]0002     |    OP_PRINT
-this is a string
-        0003    2OP_RETURN
+> 0000    1 OP_CONSTANT         0 'this is a string
+> 0002     |    OP_PRINT
+> 0003    2 OP_RETURN
+>        0000    1OP_CONSTANT         0 'this is a string
+>        [ this is a string ]0002     |    OP_PRINT
+> this is a string
+>         0003    2OP_RETURN
