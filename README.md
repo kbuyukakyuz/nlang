@@ -5,7 +5,7 @@ nlang is a memory-safe & memory-efficient programming language written in pure C
 
 
 An example of string literals, functional syntax for built-ins are optional
-> print "this is a string!";
+> print "this is a string!";  
 > print("this is a string!");
 
 Both of them returns the same bytecode:
